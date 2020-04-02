@@ -382,7 +382,7 @@
 							"    });",
 							"    ",
 							"",
-							"pm.test(\"Your test name\", function () {",
+							"pm.test(\"Check if the word seatcode appears in the field owner->login\", function () {",
 							"    var jsonData = pm.response.json();",
 							"    pm.expect(jsonData.owner.login).to.eql(\"seatcode\");",
 							"});"
